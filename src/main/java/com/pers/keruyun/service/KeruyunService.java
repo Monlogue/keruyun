@@ -1,31 +1,31 @@
 package com.pers.keruyun.service;
 
-import com.pers.keruyun.model.response.CommonResponse;
-
 import java.util.Map;
 
 public interface KeruyunService {
 
-    CommonResponse getCategory(Map map) throws Exception;
+    Map getCategory() throws Exception;
 
-    CommonResponse getCategoryAll(Map map) throws Exception;
+    Map getCategoryAll() throws Exception;
 
-    CommonResponse getDishMenu(Map map) throws Exception;
+    Map getDishMenu(Map map) throws Exception;
 
-    CommonResponse getDishMenuByIds(Map map) throws Exception;
+    Map getDishNew(Map map) throws Exception;
 
-    CommonResponse batchEditDish(Map map) throws Exception;
+    Map getDishMenuByIds(Map map) throws Exception;
 
-    CommonResponse create(Map map) throws Exception;
+    Map batchEditDish(Map map) throws Exception;
 
-    CommonResponse getOrderStatus(Map map) throws Exception;
+    Map create(Map map) throws Exception;
 
-    CommonResponse cancelOrder(Map map) throws Exception;
+    Map getOrderStatus(Map map) throws Exception;
 
-    CommonResponse applyRefundOrder(Map map) throws Exception;
+    Map cancelOrder(Map map) throws Exception;
 
-    CommonResponse pushDeliveryStatus(Map map) throws Exception;
+    Map applyRefundOrder(Map map) throws Exception;
 
-    CommonResponse pushDeliveryStatusSelf(Map map) throws Exception;
+    Map pushDeliveryStatus(Map map) throws Exception;
+
+    Map pushDeliveryStatusSelf(Map map) throws Exception;
 
 }

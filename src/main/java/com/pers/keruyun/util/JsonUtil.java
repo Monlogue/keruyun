@@ -5,7 +5,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.GsonBuilder;
 
 import java.io.IOException;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Objects;
+import java.util.TreeMap;
 
 /**
  * Json Utils.
@@ -44,6 +47,41 @@ public class JsonUtil {
         } catch (IOException e) {
             throw new IllegalStateException("fail to convert [" + json + "] to [" + valueType + "].", e);
         }
+    }
+
+    /**
+     * 去除首尾指定字符
+     * @param str 字符串
+     * @param element 指定字符
+     * @return
+     */
+    public static String trimFirstAndLastChar(String str, String element){
+        boolean beginIndexFlag = true;
+        boolean endIndexFlag = true;
+        do{
+            int beginIndex = str.indexOf(element) == 0 ? 1 : 0;
+            int endIndex = str.lastIndexOf(element) + 1 == str.length() ? str.lastIndexOf(element) : str.length();
+            str = str.substring(beginIndex, endIndex);
+            beginIndexFlag = (str.indexOf(element) == 0);
+            endIndexFlag = (str.lastIndexOf(element) + 1 == str.length());
+        } while (beginIndexFlag || endIndexFlag);
+        return str;
+    }
+
+    public static String splitUrl(String url, LinkedHashMap maps) {
+        Iterator iterator = maps.keySet().iterator();
+        int countLown = 0;
+        while (iterator.hasNext()) {
+            String key = (String) iterator.next();
+            if (countLown == 0) {
+                url += "?" + key + "=" + maps.get(key);
+            } else {
+                url += "&" + key + "=" + maps.get(key);
+            }
+            countLown++;
+
+        }
+        return url;
     }
 
     public static void main(String[] args) {

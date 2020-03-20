@@ -34,6 +34,11 @@ public class RequestConstant {
     public static final String DISHMENU = API_URL + "/open/v1/cater/dish/dishMenu";
 
     /**
+     * 查询菜单分类下的菜单信息
+     */
+    public static final String DISHNEW = API_URL + "/open/v1/cater/dish/dishNew";
+
+    /**
      * 根据门店ID查询门店菜品
      */
     public static final String DISHMENUBYIDS = API_URL + "/open/v1/cater/dish/dishMenuByIds";

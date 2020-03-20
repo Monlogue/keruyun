@@ -43,4 +43,18 @@ public class DateUtil {
     public static Date fromUnixTime(Long seconds) {
         return new Date(seconds * 1000L);
     }
+
+    /**
+     * 获取精确到秒的时间戳
+     *
+     * @param date
+     * @return
+     */
+    public static int getSecondTimestampTwo(Date date) {
+        if (null == date) {
+            return 0;
+        }
+        String timestamp = String.valueOf(date.getTime() / 1000);
+        return Integer.valueOf(timestamp);
+    }
 }

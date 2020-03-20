@@ -3,15 +3,13 @@ package com.pers.keruyun.service.impl;
 import com.alibaba.fastjson.JSONObject;
 import com.pers.keruyun.config.KeruyunConfig;
 import com.pers.keruyun.constant.RequestConstant;
-import com.pers.keruyun.model.response.CommonResponse;
 import com.pers.keruyun.service.KeruyunService;
 import com.pers.keruyun.util.HttpClient;
 import com.pers.keruyun.util.HttpRequestUtil;
+import com.pers.keruyun.util.JsonUtil;
 import com.pers.keruyun.util.SignHelper;
 
-import java.util.Iterator;
 import java.util.Map;
-import java.util.TreeMap;
 
 
 public class KeruyunServiceImpl implements KeruyunService {
@@ -34,7 +32,6 @@ public class KeruyunServiceImpl implements KeruyunService {
 
     private String getToken() throws Exception {
         String responseString = HttpRequestUtil.get(RequestConstant.GET_TOKEN + "?appKey=" + keruyunConfig.getAppKey() + "&shopIdenty=" + keruyunConfig.getShopIdenty() + "&version=" + keruyunConfig.getVersion() + "&timestamp=" + keruyunConfig.getTimestamp() + "&sign=" + keruyunConfig.getSign());
-        //String responseString = HttpClient.post(RequestConstant.GET_TOKEN, keruyunConfig.getMap());
         if (responseString != null) {
             JSONObject jsonObject = JSONObject.parseObject(responseString);
             JSONObject result = JSONObject.parseObject(jsonObject.get("result").toString());
@@ -43,139 +40,167 @@ public class KeruyunServiceImpl implements KeruyunService {
         return null;
     }
 
-    private String splitUrl(String url, TreeMap maps) {
-        Iterator iterator = maps.keySet().iterator();
-        int countLown = 0;
-        while (iterator.hasNext()) {
-            String key = (String) iterator.next();
-            if (countLown == 0) {
-                url += "?" + key + "=" + maps.get(key);
-            } else {
-                url += "&" + key + "=" + maps.get(key);
-            }
-            countLown++;
 
+    /**
+     * 查询菜品分类
+     *
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public Map getCategory() throws Exception {
+        String responseString = HttpClient.post(RequestConstant.CATEGORY, keruyunConfig.getMap());
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
-        return url;
+        return null;
     }
 
+    /**
+     * 查询菜品详细分类（所有大分类）
+     *
+     * @return
+     * @throws Exception
+     */
     @Override
-    public CommonResponse getCategory(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.CATEGORY, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
+    public Map getCategoryAll() throws Exception {
+        String responseString = HttpClient.post(RequestConstant.CATEGORYALL, keruyunConfig.getMap());
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
+        return null;
+    }
+
+    /**
+     * 分页查询菜品信息
+     *
+     * @param map
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public Map getDishMenu(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.DISHMENU, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
         return null;
     }
 
     @Override
-    public CommonResponse getCategoryAll(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.CATEGORYALL, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
+    public Map getDishNew(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.DISHNEW, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        //String responseString = HttpClient.post(RequestConstant.DISHNEW, map);
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
+        return null;
+    }
+
+    /**
+     * 根据菜品ID查询 ids
+     *
+     * @param map
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public Map getDishMenuByIds(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.DISHMENUBYIDS, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
+        return null;
+    }
+
+    /**
+     * 批量修改菜品信息
+     *
+     * @param map
+     * @return
+     * @throws Exception
+     */
+    @Override
+    public Map batchEditDish(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.BATCHEDIT, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
         return null;
     }
 
     @Override
-    public CommonResponse getDishMenu(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.DISHMENU, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
+    public Map create(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.CREATE_ORDER, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
         return null;
     }
 
     @Override
-    public CommonResponse getDishMenuByIds(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.DISHMENUBYIDS, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
+    public Map getOrderStatus(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.GET_ORDER_STATUS, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
         return null;
     }
 
     @Override
-    public CommonResponse batchEditDish(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.BATCHEDIT, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
+    public Map cancelOrder(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.CANCEL_ORDER, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
         return null;
     }
 
     @Override
-    public CommonResponse create(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.CREATE_ORDER, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
+    public Map applyRefundOrder(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.APPLYREFUND_ORDER, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
         return null;
     }
 
     @Override
-    public CommonResponse getOrderStatus(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.GET_ORDER_STATUS, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
+    public Map pushDeliveryStatus(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.PUSH_DELIVERY_STATUS, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
         return null;
     }
 
     @Override
-    public CommonResponse cancelOrder(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.CANCEL_ORDER, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
-        }
-        return null;
-    }
-
-    @Override
-    public CommonResponse applyRefundOrder(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.APPLYREFUND_ORDER, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
-        }
-        return null;
-    }
-
-    @Override
-    public CommonResponse pushDeliveryStatus(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.PUSH_DELIVERY_STATUS, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
-        }
-        return null;
-    }
-
-    @Override
-    public CommonResponse pushDeliveryStatusSelf(Map map) throws Exception {
-        map.putAll(keruyunConfig.getMap());
-        String responseString = HttpClient.post(RequestConstant.PUSH_DELIVERY_STATUS_SELF, map);
-        if (responseString != null) {
-            CommonResponse commonResponse = JSONObject.parseObject(responseString, CommonResponse.class);
-            return commonResponse;
+    public Map pushDeliveryStatusSelf(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.PUSH_DELIVERY_STATUS_SELF, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
         }
         return null;
     }

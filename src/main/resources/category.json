@@ -1,0 +1,64 @@
+{
+  "result": [
+    {
+      "aliasName": null,
+      "name": "披萨系列",
+      "sort": 1,
+      "id": 302072985848684544,
+      "parentId": null,
+      "level": null
+    },
+    {
+      "aliasName": "披萨套餐",
+      "name": "披萨套餐",
+      "sort": 2,
+      "id": 302413255119617024,
+      "parentId": null,
+      "level": null
+    },
+    {
+      "aliasName": null,
+      "name": "意面系列",
+      "sort": 4,
+      "id": 302072985848684545,
+      "parentId": null,
+      "level": null
+    },
+    {
+      "aliasName": null,
+      "name": "简餐系列",
+      "sort": 5,
+      "id": 302072985848684546,
+      "parentId": null,
+      "level": null
+    },
+    {
+      "aliasName": null,
+      "name": "芝士焗饭系列",
+      "sort": 3,
+      "id": 302089751945623552,
+      "parentId": null,
+      "level": null
+    },
+    {
+      "aliasName": null,
+      "name": "小吃系列",
+      "sort": 6,
+      "id": 302089751945623553,
+      "parentId": null,
+      "level": null
+    },
+    {
+      "aliasName": "奶茶系列",
+      "name": "饮品系列",
+      "sort": 7,
+      "id": 302131127598056448,
+      "parentId": null,
+      "level": null
+    }
+  ],
+  "code": 0,
+  "message": "成功[OK]",
+  "messageUuid": "abb4a38c55214201854170232a700b67",
+  "apiMessage": null
+}

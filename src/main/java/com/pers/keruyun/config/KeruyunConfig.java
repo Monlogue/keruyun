@@ -3,6 +3,7 @@ package com.pers.keruyun.config;
 import lombok.Data;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Data
@@ -44,6 +45,16 @@ public class KeruyunConfig {
         map.put("version", version);
         map.put("timestamp", timestamp);
         map.put("token", token);
+        map.put("sign", sign);
+        return map;
+    }
+
+    public LinkedHashMap getCommonMap() {
+        LinkedHashMap map = new LinkedHashMap();
+        map.put("appKey", appKey);
+        map.put("shopIdenty", shopIdenty);
+        map.put("version", version);
+        map.put("timestamp", timestamp);
         map.put("sign", sign);
         return map;
     }

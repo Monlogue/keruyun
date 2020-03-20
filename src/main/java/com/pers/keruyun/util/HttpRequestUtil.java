@@ -48,6 +48,7 @@ public class HttpRequestUtil {
                 try {
                     /**读取服务器返回过来的json字符串数据**/
                     str = EntityUtils.toString(result.getEntity());
+                    logger.info(String.format("response data: %s", str));
                     return str;
                     /**把json字符串转换成json对象**/
 //                    jsonResult = JSONObject.fromObject(str);
