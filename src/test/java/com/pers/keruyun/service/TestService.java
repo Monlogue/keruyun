@@ -33,7 +33,7 @@ public class TestService {
     public void testQueryOrder() throws Exception {
         KeruyunServiceImpl keruyunService = new KeruyunServiceImpl();
         keruyunService.setKeruyunConfig(keruyunConfig);
-        //Map category = keruyunService.getCategory();
+        Map category = keruyunService.getCategory();
         //Map categoryAll = keruyunService.getCategoryAll();
         Map map = new HashMap();
         map.put("dishTypeId", "302072985848684544");

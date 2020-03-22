@@ -1,64 +1,1770 @@
 {
-  "result": [
-    {
-      "aliasName": null,
-      "name": "披萨系列",
-      "sort": 1,
-      "id": 302072985848684544,
-      "parentId": null,
-      "level": null
-    },
-    {
-      "aliasName": "披萨套餐",
-      "name": "披萨套餐",
-      "sort": 2,
-      "id": 302413255119617024,
-      "parentId": null,
-      "level": null
-    },
-    {
-      "aliasName": null,
-      "name": "意面系列",
-      "sort": 4,
-      "id": 302072985848684545,
-      "parentId": null,
-      "level": null
-    },
-    {
-      "aliasName": null,
-      "name": "简餐系列",
-      "sort": 5,
-      "id": 302072985848684546,
-      "parentId": null,
-      "level": null
-    },
-    {
-      "aliasName": null,
-      "name": "芝士焗饭系列",
-      "sort": 3,
-      "id": 302089751945623552,
-      "parentId": null,
-      "level": null
-    },
-    {
-      "aliasName": null,
-      "name": "小吃系列",
-      "sort": 6,
-      "id": 302089751945623553,
-      "parentId": null,
-      "level": null
-    },
-    {
-      "aliasName": "奶茶系列",
-      "name": "饮品系列",
-      "sort": 7,
-      "id": 302131127598056448,
-      "parentId": null,
-      "level": null
-    }
-  ],
+  "result": {
+    "dishList": [
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165255428030464,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165255394476032,
+        "id": 302774368468968471,
+        "marketPrice": 99.00,
+        "name": "墨西哥风情披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "769590574c294e679f8cfc391c8b8da3",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165255428030464,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165255415447552,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165255394476032,
+        "id": 302774368468968470,
+        "marketPrice": 69.00,
+        "name": "墨西哥风情披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "59e0c99f6f584fcab758e16c76830288",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165255415447552,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165255407058944,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165255394476032,
+        "id": 302774368468968469,
+        "marketPrice": 49.00,
+        "name": "墨西哥风情披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "a98ab2436f454d50b6515012d8852778",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165255407058944,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/3C098E2E377D4F1CB4BB6BD443A7BF8D.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/3C098E2E377D4F1CB4BB6BD443A7BF8D.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165541328599040,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165541274073088,
+        "id": 302774368468968477,
+        "marketPrice": 95.00,
+        "name": "香芒醉鸡披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "731a4d53b86447a8aa36d724229884a1",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165541328599040,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165541311821824,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165541274073088,
+        "id": 302774368468968476,
+        "marketPrice": 65.00,
+        "name": "香芒醉鸡披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "9e994410920e47699c21e58898214ac4",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165541311821824,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165541290850304,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165541274073088,
+        "id": 302774368468968475,
+        "marketPrice": 45.00,
+        "name": "香芒醉鸡披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "da30e05868d649dabd4a828566b6dac5",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165541290850304,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/592D44FB8B9F4895B4EC80AD23AEC7F2.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/592D44FB8B9F4895B4EC80AD23AEC7F2.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164994315821056,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164994257100800,
+        "id": 302774368468968465,
+        "marketPrice": 95.00,
+        "name": "海陆双霸披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "bb51f9e43c734439a26ada37319a4120",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164994315821056,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164994294849536,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164994257100800,
+        "id": 302774368468968464,
+        "marketPrice": 65.00,
+        "name": "海陆双霸披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "20bb8c5936ee42e29645cf92478a34d4",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164994294849536,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164994278072320,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164994257100800,
+        "id": 302774368468968463,
+        "marketPrice": 45.00,
+        "name": "海陆双霸披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "c218c631639a47019b957ee5ba5d6e8f",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164994278072320,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/69F27AA9F6DF445184F34CD76720C47C.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/69F27AA9F6DF445184F34CD76720C47C.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302162830138882048,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302162830084356096,
+        "id": 302774368468968450,
+        "marketPrice": 99.00,
+        "name": "王牌榴莲披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "361442bb5ae7483a8820ac08c9763f8e",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302162830138882048,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302162830122104832,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302162830084356096,
+        "id": 302774368468968449,
+        "marketPrice": 69.00,
+        "name": "王牌榴莲披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "196895b94f3c42cd89bc5320cb392e46",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302162830122104832,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302162830101133312,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302162830084356096,
+        "id": 302774368468968448,
+        "marketPrice": 49.00,
+        "name": "王牌榴莲披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "5d970f0fe2a74bb68c6d7c7af67e1aa4",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302162830101133312,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/5AF7E5132EB24C2EA107092299C0E382.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/5AF7E5132EB24C2EA107092299C0E382.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163382499328000,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163382465773568,
+        "id": 302163450821065730,
+        "marketPrice": 99.00,
+        "name": "榴芒披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "523d7ecc9fea420a95593aa30efd6f5b",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163382499328000,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163382490939392,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163382465773568,
+        "id": 302163450821065729,
+        "marketPrice": 69.00,
+        "name": "榴芒披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "7d3a8e4b485542b1a46b90af7c526f8a",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163382490939392,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163382478356480,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163382465773568,
+        "id": 302163450821065728,
+        "marketPrice": 49.00,
+        "name": "榴芒披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "5350f81c416740e39e3c344a44f4a659",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163382478356480,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/34C21DEF369D4D48B8B445DF61B8DF25.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/34C21DEF369D4D48B8B445DF61B8DF25.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164647824367616,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164647769841664,
+        "id": 302774368468968459,
+        "marketPrice": 95.00,
+        "name": "超级水果披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "cc77876824714873bcf9aedcc4031ccc",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164647824367616,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164647803396096,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164647769841664,
+        "id": 302774368468968458,
+        "marketPrice": 65.00,
+        "name": "超级水果披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "7621f4970e404ee4a11edddaf6eae7e4",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164647803396096,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164647786618880,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164647769841664,
+        "id": 302774368468968457,
+        "marketPrice": 45.00,
+        "name": "超级水果披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "409fa14bc29941ee9f73662fa8b9621a",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164647786618880,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/8DA8E8049F394C3FA7E7E930FF83D93B.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/8DA8E8049F394C3FA7E7E930FF83D93B.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165389054448640,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165389016699904,
+        "id": 302774368468968474,
+        "marketPrice": 95.00,
+        "name": "培根烤肉披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "d277bc24885140dcae060562eac1f994",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165389054448640,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165389041865728,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165389016699904,
+        "id": 302774368468968473,
+        "marketPrice": 65.00,
+        "name": "培根烤肉披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "74f5cf786c674b1c9e87d55c86a723fb",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165389041865728,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165389029282816,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165389016699904,
+        "id": 302774368468968472,
+        "marketPrice": 45.00,
+        "name": "培根烤肉披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "e03bec55b4dd46d3941dbb01d021deb1",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165389029282816,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/0E433431362040EC93499D4A1787EA27.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/0E433431362040EC93499D4A1787EA27.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165123588503552,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165123538171904,
+        "id": 302774368468968468,
+        "marketPrice": 99.00,
+        "name": "黑椒牛肉披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "c0b06715446848ebb390848fc35b8442",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165123588503552,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165123571726336,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165123538171904,
+        "id": 302774368468968467,
+        "marketPrice": 69.00,
+        "name": "黑椒牛肉披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "84bb8ad3431f4c3ab7719ef90394a02e",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165123571726336,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302165123554949120,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302165123538171904,
+        "id": 302774368468968466,
+        "marketPrice": 49.00,
+        "name": "黑椒牛肉披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "1884bf59ca864c4d9627193941723e55",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302165123554949120,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/36C74CC897684DE19F5CF9846BCB54BF.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/36C74CC897684DE19F5CF9846BCB54BF.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163793490819072,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163793427904512,
+        "id": 302774368468968453,
+        "marketPrice": 129.00,
+        "name": "榴莲多多披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "cb6b7fc8afce4f4b93687144b3b67f63",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163793490819072,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163793474041856,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163793427904512,
+        "id": 302774368468968452,
+        "marketPrice": 79.00,
+        "name": "榴莲多多披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "81b8b1a2f82a4fe68f519ec2db29ee37",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163793474041856,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163793453070336,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163793427904512,
+        "id": 302774368468968451,
+        "marketPrice": 59.00,
+        "name": "榴莲多多披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "5314c05832654e1194d1fc4d470907f1",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163793453070336,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/274C853DD70B4834B9476274EC9E71F7.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/274C853DD70B4834B9476274EC9E71F7.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164785657624576,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164785603098624,
+        "id": 302774368468968462,
+        "marketPrice": 95.00,
+        "name": "奥尔良烤鸡披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "f310d97c7eeb4b588ed1995f3c111ccc",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164785657624576,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164785640847360,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164785603098624,
+        "id": 302774368468968461,
+        "marketPrice": 65.00,
+        "name": "奥尔良烤鸡披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "0894f9045c0b42d097ec99be0bf82770",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164785640847360,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302164785619875840,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302164785603098624,
+        "id": 302774368468968460,
+        "marketPrice": 45.00,
+        "name": "奥尔良烤鸡披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "918bf102f3db4715ab1303d6f9ecb3a8",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302164785619875840,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/F7DA034D7E7D4B1AA44969B751313FDF.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/F7DA034D7E7D4B1AA44969B751313FDF.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163964672917504,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163964635168768,
+        "id": 302774368468968456,
+        "marketPrice": 95.00,
+        "name": "夏威夷披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "b9b69ad9555c43679dc96517d07fd030",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163964672917504,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161948677223424,
+                "isChecked": null,
+                "name": "12寸",
+                "reprice": 0.00,
+                "sort": 3
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163964660334592,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": null,
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163964635168768,
+        "id": 302774368468968455,
+        "marketPrice": 65.00,
+        "name": "夏威夷披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "8ace340cd24349628941b3e399e58a98",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": null,
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163964660334592,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161915298399232,
+                "isChecked": null,
+                "name": "10寸",
+                "reprice": 0.00,
+                "sort": 2
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": null,
+        "smallImgUrls": null,
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      },
+      {
+        "aliasName": "",
+        "boxQty": 1,
+        "brandDishId": 302163964647751680,
+        "clearStatus": 1,
+        "currRemainTotal": null,
+        "dishDesc": "",
+        "dishIncreaseUnit": 1.00,
+        "dishQty": 1.000,
+        "dishTypeId": 302072985848684544,
+        "productId": 302163964635168768,
+        "id": 302774368468968454,
+        "marketPrice": 45.00,
+        "name": "夏威夷披萨",
+        "residueTotal": 1000.00,
+        "residueTotalWechat": 1000.00,
+        "richDesc": null,
+        "uuid": "0b056548b79e4fdc89b036c3db67f2cb",
+        "saleTotal": 1000.00,
+        "saleTotalWechat": 1000.00,
+        "saleType": 2,
+        "stepNum": 1.00,
+        "type": 0,
+        "unitId": 302072985781575680,
+        "unitName": "寸",
+        "videoUrl": "",
+        "dishSetmealGroups": null,
+        "dishIngredientInfoVo": null,
+        "dishPropertyTypeInfos": [
+          {
+            "dishBrandId": 302163964647751680,
+            "id": 302156833559364608,
+            "name": "披萨尺寸",
+            "properties": [
+              {
+                "id": 302161845669623808,
+                "isChecked": null,
+                "name": "8寸",
+                "reprice": 0.00,
+                "sort": 1
+              }
+            ],
+            "type": 4
+          }
+        ],
+        "largeImgList": [
+          "https://img-static.keruyun.com/kry-dir/A73D36D50A7E45BE910A2E7EDA1E308E.jpg?x-oss-process=image/resize,w_640,h_480"
+        ],
+        "smallImgUrls": [
+          "https://img-static.keruyun.com/kry-dir/A73D36D50A7E45BE910A2E7EDA1E308E.jpg?x-oss-process=image/resize,w_180,h_135"
+        ],
+        "enabledFlag": 1,
+        "statusFlag": 1,
+        "guaranteeDate": null,
+        "guaranteeDateType": 1
+      }
+    ]
+  },
   "code": 0,
   "message": "成功[OK]",
-  "messageUuid": "abb4a38c55214201854170232a700b67",
-  "apiMessage": null
+  "messageUuid": "de8da054864148f197f49dddcf809333",
+  "apiMessage": "成功[OK]"
 }
