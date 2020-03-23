@@ -1,9 +1,7 @@
 package com.pers.keruyun.service;
 
 import com.alibaba.fastjson.JSONObject;
-import com.google.gson.JsonObject;
 import com.pers.keruyun.config.KeruyunConfig;
-import com.pers.keruyun.model.response.CommonResponse;
 import com.pers.keruyun.service.impl.KeruyunServiceImpl;
 import com.pers.keruyun.util.DateUtil;
 import org.apache.commons.logging.Log;
@@ -52,7 +50,7 @@ public class TestService {
     @Test
     public void create() throws Exception {
         //String path = getClass().getClassLoader().getResource("create.json").toString();
-        String path = "C:/Users/Lias/Desktop/keruyun/src/test/resources/create.json";
+        String path = "C:\\Users\\Administrator\\Desktop\\keruyun\\src\\main\\resourcescreate.json";
         String jsonStr = "";
         try {
             File jsonFile = new File(path);
