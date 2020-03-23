@@ -1,5 +1,7 @@
 package com.pers.keruyun.service;
 
+import com.alibaba.fastjson.JSONObject;
+import com.google.gson.JsonObject;
 import com.pers.keruyun.config.KeruyunConfig;
 import com.pers.keruyun.model.response.CommonResponse;
 import com.pers.keruyun.service.impl.KeruyunServiceImpl;
@@ -8,6 +10,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.junit.Test;
 
+import java.io.*;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -44,6 +47,35 @@ public class TestService {
         map.put("ids", ids);
         //Map dishMenuByIds = keruyunService.getDishMenuByIds(map);
         map.clear();
+    }
+
+    @Test
+    public void create() throws Exception {
+        //String path = getClass().getClassLoader().getResource("create.json").toString();
+        String path = "C:/Users/Lias/Desktop/keruyun/src/test/resources/create.json";
+        String jsonStr = "";
+        try {
+            File jsonFile = new File(path);
+            FileReader fileReader = new FileReader(jsonFile);
+
+            Reader reader = new InputStreamReader(new FileInputStream(jsonFile),"utf-8");
+            int ch = 0;
+            StringBuffer sb = new StringBuffer();
+            while ((ch = reader.read()) != -1) {
+                sb.append((char) ch);
+            }
+            fileReader.close();
+            reader.close();
+            jsonStr = sb.toString();
+            Map map = (Map) JSONObject.parse(jsonStr);
+            KeruyunServiceImpl keruyunService = new KeruyunServiceImpl();
+            keruyunService.setKeruyunConfig(keruyunConfig);
+            Map result = keruyunService.create(map);
+            System.out.println(result.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }
