@@ -1,52 +1,52 @@
-{"tpOrderId":"123123123131",
-  "needInvoice":1,
-  "invoiceTitle":"我要发票，这是抬头",
-  "createTime":1491906548372,
-  "peopleCount":1,
-  "remark":"呵呵",
-  "shop":{
-    "shopIdenty":810539515,
-    "tpShopId":"810539515",
-    "shopName":"拼一块披萨"
+{
+  "tpOrderId": "1585323518289654216",
+  "createTime": 1491906548372,
+  "peopleCount": 1,
+  "remark": null,
+  "shop": {
+    "shopIdenty": 810539515,
+    "shopName": "拼一块披萨",
+    "tpShopId": 810539515
   },
-  "products":[
+  "products": [
     {
-      "name":"土豆丝炒肉肉",
-      "id":298372,
-      "tpId":"24242",
-      "quantity":2,
-      "price":1,
-      "packagePrice":0,
-      "packageQuantity":2,
-      "totalFee":2,
-      "remark":"炒软一点"
+      "tpId": 302089752159533073,
+      "quantity": 1,
+      "totalFee": 15.0,
+      "price": 15.0,
+      "name": "开心薯饼",
+      "packagePrice": 3,
+      "packageQuantity": 1,
+      "type": 0
     }
   ],
-  "delivery":{
-    "expectTime":0,
-    "deliveryParty":1,
-    "receiverName":"李安水",
-    "receiverPhone":"15221685047",
-    "receiverGender":1,
-    "delivererPhone":"15221685047",
-    "delivererAddress":"四川成都",
-    "coordinateType":1,
-    "longitude":88,
-    "latitude":80
+  "delivery": {
+    "receiverPhone": 15221685047,
+    "delivererAddress": "安义县政府",
+    "deliveryParty": 1,
+    "expectTime": 0,
+    "receiverName": "李安水",
+    "latitude": 28.84476,
+    "coordinateType": 2,
+    "longitude": 115.54938
   },
-  "payment":{
-    "deliveryFee":0,
-    "packageFee":0,
-    "discountFee":0,
-    "platformDiscountFee":0,
-    "shopFee":2,
-    "userFee":2,
-    "serviceFee":0,
-    "subsidies":0,
-    "totalFee":2,
-    "payType":2,
-    "shopDiscountFee":0
+  "payment": {
+    "serviceFee": 0,
+    "userFee": 24.00,
+    "deliveryFee": 6,
+    "discountFee": 0,
+    "payType": 2,
+    "shopFee": 24.00,
+    "totalFee": 24.00,
+    "subsidies": 0,
+    "platformDiscountFee": 0,
+    "shopDiscountFee": 0,
+    "packageFee": 3
   },
   "isPrint": 1,
-  "printTemplateTypes":[8,9,15]
+  "printTemplateTypes": [
+    8,
+    9,
+    15
+  ]
 }

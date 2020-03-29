@@ -50,7 +50,7 @@ public class TestService {
     @Test
     public void create() throws Exception {
         //String path = getClass().getClassLoader().getResource("create.json").toString();
-        String path = "C:\\Users\\Administrator\\Desktop\\keruyun\\src\\main\\resourcescreate.json";
+        String path = "C:\\Users\\Administrator\\Desktop\\keruyun\\src\\main\\resources\\create.json";
         String jsonStr = "";
         try {
             File jsonFile = new File(path);
