@@ -151,6 +151,17 @@ public class KeruyunServiceImpl implements KeruyunService {
     }
 
     @Override
+    public Map createSnack(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.CREATE_SNACK_ORDER, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
+        return null;
+    }
+
+    @Override
     public Map getOrderStatus(Map map) throws Exception {
         String url = JsonUtil.splitUrl(RequestConstant.GET_ORDER_STATUS, keruyunConfig.getCommonMap());
         String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));

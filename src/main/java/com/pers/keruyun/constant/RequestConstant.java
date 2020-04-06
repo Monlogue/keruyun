@@ -54,6 +54,11 @@ public class RequestConstant {
     public static final String CREATE_ORDER = API_URL + "/open/v1/takeout/order/create";
 
     /**
+     * 第三方合作方调用此接口，创建堂食订单（该接口中的金额全部是分为单位）
+     */
+    public static final String CREATE_SNACK_ORDER = API_URL + "/open/v1/snack/order/create";
+
+    /**
      * 第三方合作方调用此接口，查询订单状态
      */
     public static final String GET_ORDER_STATUS = API_URL + "/open/v1/takeout/order/status/get";

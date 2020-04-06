@@ -18,6 +18,8 @@ public interface KeruyunService {
 
     Map create(Map map) throws Exception;
 
+    Map createSnack(Map map) throws Exception;
+
     Map getOrderStatus(Map map) throws Exception;
 
     Map cancelOrder(Map map) throws Exception;
