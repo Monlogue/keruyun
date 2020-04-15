@@ -191,5 +191,30 @@ public class KeruyunServiceImpl extends CommonService implements KeruyunService 
         return null;
     }
 
+    @Override
+    public Map scanCode(Map map) throws Exception {
+        return null;
+    }
+
+    @Override
+    public Map showCode(Map map) throws Exception {
+        return null;
+    }
+
+    @Override
+    public Map payQuery(Map map) throws Exception {
+        return null;
+    }
+
+    @Override
+    public Map refundApply(Map map) throws Exception {
+        return null;
+    }
+
+    @Override
+    public Map refundQuery(Map map) throws Exception {
+        return null;
+    }
+
 
 }
