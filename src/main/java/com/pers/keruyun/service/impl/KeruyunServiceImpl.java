@@ -193,26 +193,56 @@ public class KeruyunServiceImpl extends CommonService implements KeruyunService 
 
     @Override
     public Map scanCode(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.SCANCODE, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
         return null;
     }
 
     @Override
     public Map showCode(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.SHOWCODE, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
         return null;
     }
 
     @Override
     public Map payQuery(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.PAYQUERY, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
         return null;
     }
 
     @Override
     public Map refundApply(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.REFUNDAPPLY, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
         return null;
     }
 
     @Override
     public Map refundQuery(Map map) throws Exception {
+        String url = JsonUtil.splitUrl(RequestConstant.REFUNDQUERY, keruyunConfig.getCommonMap());
+        String responseString = HttpRequestUtil.post(url, JSONObject.toJSONString(map));
+        Map result = JsonUtil.toObject(responseString, Map.class);
+        if (Integer.parseInt(result.get("code").toString()) == 0) {
+            return result;
+        }
         return null;
     }
 
